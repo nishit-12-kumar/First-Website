@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+     background-color: #FFDEE9;
+    }
+.container{
+    /* background-color: #0093E9; */
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    /* background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); */
+    /* background: linear-gradient(to right, #e1eec3, #f05053); */
+    position: relative;
+    padding: 10px;
+}
+#footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+
+}
+#logo1{
+    display: flex;
+    align-items: center;
+}
+#heading{
+    font-size: 50px;
+    padding: 5px;
+    margin: 5px;
+
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: 400; */
+    /* font-style: bold; */ 
+
+    font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+    
+
+}
+
+a{
+    color: #1A1A40;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 16px;
+    
+    
+}
+#logo2{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo3:hover{
+    font-size: 28px;
+    transition: all 0.3s linear 0s;
+    text-shadow: 2px 2px 2px #AAAAAA; 
+
+}
+
+.iphone-15{
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    padding: 30px;
+    margin:20px;
+    /* border: 2px solid black; */
+    width: 1100px;
+    /* height: 1500px; */
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    box-shadow: 1px 1px 5px 1px black;
+    
+}
+
+.iphone{
+    
+  /* padding: 20px; */
+  width: 270px;
+  float: right;
+  transition: all 0.3s linear 0s;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+.iphone:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.463);
+
+}
+
+#camera_iphone{
+    float:left;
+    margin-right: 20px;
+}
+
+
+#footer2{
+    list-style: none;
+}
+h1{
+    padding: 5px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+h2{
+    padding: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+    font-size: 28px;
+    text-shadow: 1px 1px 3px white;
+}
+
+p{
+    padding: 10px;
+    margin: 5px;
+    font-size: 17px;
+}
+b{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+#one-plus{
+    margin-top: 100px;
+}
+
+#one-plus-blue{   
+float: left;
+width: 200px;
+margin-right: 20px;
+}
+
+#one-plus-black{
+    width: 190px;
+}
+
+#realme{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(to right, #cb5764c4, #88c7e9);
+    /* color: #fff; */
+    /* padding: 20px 0; */
+    font-size: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .lastline a{
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .footer-bottom {
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    background: #222;
+    margin-top: 20px;
+  }
+  #follow-us{
+    margin-top: 25px;
+  }
+  .address{
+    padding-bottom: 5px;
+  }
+  #about-us{
+    font-size: 20px;
+  }
+  
